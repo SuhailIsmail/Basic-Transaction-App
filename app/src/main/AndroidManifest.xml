@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/dg"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/dg"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".Splash.Splash"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.Activity_Register"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".Login.Activity_Login"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".card.card"
+            android:exported="false" />
+
+        <activity
+            android:name=".Transfer.user_list"
+            android:label="Banking System"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".Transfer.user_data"
+            android:label="User Details"
+            android:parentActivityName=".Transfer.user_list"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transfer.sendtouser"
+            android:label="Transfer Money"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Transfer.history_list"
+            android:label="Transactions"
+            android:parentActivityName=".Transfer.user_list"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

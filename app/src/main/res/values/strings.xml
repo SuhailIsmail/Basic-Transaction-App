@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Basic Transaction</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="code">XXXX \t XXXX \t XXXX \t XXXX</string>
+    <string name="_06">06</string>
+    <string name="bank_name">BANK NAME</string>
+    <string name="card_holder">CARD HOLDER</string>
+    <string name="mm">MM</string>
+    <string name="divv">/</string>
+    <string name="yy">YY</string>
+</resources>
